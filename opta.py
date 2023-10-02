@@ -241,10 +241,10 @@ def mainpage():
     clear_button = CTk.CTkButton(main, text="Clear route", font=("Arial", 16), command=clear_map)
     clear_button.grid(row=0, column=0, pady=5, padx=(10,30), sticky="e")
 
-    log_in_buttom = CTk.CTkButton(main, text="Log in", font=("Arial", 16), command=clear_button)
+    log_in_buttom = CTk.CTkButton(main, text="Log in", font=("Arial", 16), command=sign_in)
     log_in_buttom.grid(row=2, column=0, pady=(5,10), padx=160,sticky="e")
 
-    sign_up_button = CTk.CTkButton(main, text="Sign up", font=("Arial", 16), command=clear_button)
+    sign_up_button = CTk.CTkButton(main, text="Sign up", font=("Arial", 16), command=sign_up)
     sign_up_button.grid(row=2, column=0, pady=(5,10), padx=10,sticky="e")
 
 def logged():
